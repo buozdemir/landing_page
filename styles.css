@@ -12,8 +12,10 @@ a {
 }
 
 button {
-  padding: 5px 25px;
+  width: 100px;
+  height: 30px;
   border-radius: 8px;
+  border: 1 px solid;
 }
 
 /* Container */
@@ -128,4 +130,38 @@ button {
   margin-right: 70px;
   text-align: end;
   margin-top: 5px;
+}
+
+/* call-to-action */
+
+.sign-up {
+  background-color: #3882f6;
+  padding: 50px 100px;
+  margin: 75px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.sign-up p,
+.sign-up h6 {
+  margin: 0px;
+  color: #f9f1f8;
+}
+
+.sign-up h6 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.sign-up p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.sign-up button {
+  background-color: #3882f6;
+  border-color: white;
+  color: white;
 }
