@@ -33,6 +33,11 @@ button {
 .main {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.main-left {
+  padding-right: 100px;
 }
 
 .main-left h3 {
@@ -68,7 +73,6 @@ button {
   height: 200px;
   background-color: grey;
   flex-shrink: 0;
-  margin-left: 70px;
 }
 
 /* info */
@@ -103,4 +107,25 @@ button {
   border-radius: 8px;
   height: 100px;
   box-sizing: border-box;
+}
+
+/* quote-part */
+
+.quote-part {
+  background-color: #e5e7eb;
+  padding: 60px 100px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  margin: 0px;
+}
+
+.quote-owner {
+  font-weight: bold;
+  margin-right: 70px;
+  text-align: end;
+  margin-top: 5px;
 }
